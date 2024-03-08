@@ -2,20 +2,19 @@
 //  ContentView.swift
 //  DayNightToggle
 //
-//  Created by mikhey on 2024-02-26.
+//  Created by mikhey on 2024-03-08.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var state = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        DNToggleView(state: $state)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.black)
     }
 }
 

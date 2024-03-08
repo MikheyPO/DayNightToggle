@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D65F4CAF2B8D5D4D0070108E /* DayNightToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F4CAE2B8D5D4D0070108E /* DayNightToggleApp.swift */; };
-		D65F4CB12B8D5D4D0070108E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F4CB02B8D5D4D0070108E /* ContentView.swift */; };
+		D65F4CB12B8D5D4D0070108E /* DNToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F4CB02B8D5D4D0070108E /* DNToggleView.swift */; };
 		D65F4CB32B8D5D4E0070108E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65F4CB22B8D5D4E0070108E /* Assets.xcassets */; };
 		D65F4CB72B8D5D4E0070108E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65F4CB62B8D5D4E0070108E /* Preview Assets.xcassets */; };
 		D65F4CC12B8D5D4E0070108E /* DayNightToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F4CC02B8D5D4E0070108E /* DayNightToggleTests.swift */; };
 		D65F4CCB2B8D5D4E0070108E /* DayNightToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F4CCA2B8D5D4E0070108E /* DayNightToggleUITests.swift */; };
 		D65F4CCD2B8D5D4E0070108E /* DayNightToggleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F4CCC2B8D5D4E0070108E /* DayNightToggleUITestsLaunchTests.swift */; };
+		D69F59AB2B9B709100704C26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F59AA2B9B709100704C26 /* ContentView.swift */; };
+		D6B3CFBD2B980D3B0075B10C /* StarsShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3CFBC2B980D3B0075B10C /* StarsShape.swift */; };
+		D6B3CFBF2B980DD50075B10C /* CloudChape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3CFBE2B980DD50075B10C /* CloudChape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		D65F4CAB2B8D5D4D0070108E /* DayNightToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayNightToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65F4CAE2B8D5D4D0070108E /* DayNightToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightToggleApp.swift; sourceTree = "<group>"; };
-		D65F4CB02B8D5D4D0070108E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D65F4CB02B8D5D4D0070108E /* DNToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNToggleView.swift; sourceTree = "<group>"; };
 		D65F4CB22B8D5D4E0070108E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65F4CB42B8D5D4E0070108E /* DayNightToggle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DayNightToggle.entitlements; sourceTree = "<group>"; };
 		D65F4CB62B8D5D4E0070108E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		D65F4CC62B8D5D4E0070108E /* DayNightToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayNightToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65F4CCA2B8D5D4E0070108E /* DayNightToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightToggleUITests.swift; sourceTree = "<group>"; };
 		D65F4CCC2B8D5D4E0070108E /* DayNightToggleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightToggleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D69F59AA2B9B709100704C26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6B3CFBC2B980D3B0075B10C /* StarsShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsShape.swift; sourceTree = "<group>"; };
+		D6B3CFBE2B980DD50075B10C /* CloudChape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudChape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				D65F4CAE2B8D5D4D0070108E /* DayNightToggleApp.swift */,
-				D65F4CB02B8D5D4D0070108E /* ContentView.swift */,
+				D69F59AA2B9B709100704C26 /* ContentView.swift */,
+				D65F4CB02B8D5D4D0070108E /* DNToggleView.swift */,
+				D6B3CFBC2B980D3B0075B10C /* StarsShape.swift */,
+				D6B3CFBE2B980DD50075B10C /* CloudChape.swift */,
 				D65F4CB22B8D5D4E0070108E /* Assets.xcassets */,
 				D65F4CB42B8D5D4E0070108E /* DayNightToggle.entitlements */,
 				D65F4CB52B8D5D4E0070108E /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65F4CB12B8D5D4D0070108E /* ContentView.swift in Sources */,
+				D65F4CB12B8D5D4D0070108E /* DNToggleView.swift in Sources */,
+				D6B3CFBD2B980D3B0075B10C /* StarsShape.swift in Sources */,
 				D65F4CAF2B8D5D4D0070108E /* DayNightToggleApp.swift in Sources */,
+				D6B3CFBF2B980DD50075B10C /* CloudChape.swift in Sources */,
+				D69F59AB2B9B709100704C26 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +446,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -472,7 +484,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
